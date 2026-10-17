@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pépètes – Confidentialité</title>
+<meta name="description" content="Règles de confidentialité de l'application Pépètes : budget et dépenses.">
+<style>
+  :root { --bg: #f6f8f2; --card: #ffffff; --text: #1d241f; --muted: #536057; --accent: #2f6b45; --line: #dde5d8; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --bg: #111814; --card: #18221c; --text: #e3ebe2; --muted: #a3b2a6; --accent: #9fd27f; --line: #2a372f; }
+  }
+  :root[data-theme="dark"] { --bg: #111814; --card: #18221c; --text: #e3ebe2; --muted: #a3b2a6; --accent: #9fd27f; --line: #2a372f; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); font-size: .95rem; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px; margin-top: 20px; }
+  ul { padding-left: 1.2em; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Pépètes : confidentialité</h1>
+  <p class="muted">Application Android « Pépètes : Budget &amp; Dépenses » (com.blackocto.pepetes). Mise à jour : 18 octobre 2026.</p>
+
+  <div class="card">
+    <strong>En bref :</strong> tes comptes et tes opérations restent sur ton téléphone. Pas de publicité, pas de traceur,
+    pas de compte à créer. Pépètes ne vend ni ne partage aucune donnée.
+  </div>
+
+  <h2>Ce que l'application enregistre</h2>
+  <p>Ce que tu saisis toi-même : noms de comptes, opérations (date, montant, libellé, catégorie), opérations récurrentes,
+    catégories et réglages. Ces données sont enregistrées <strong>uniquement sur ton téléphone</strong>, dans l'espace privé
+    de l'application. Elles ne sont envoyées à aucun serveur de l'éditeur.</p>
+  <p>La version disponible sur Google Play ne se connecte à aucune banque : elle ne lit ni identifiants bancaires, ni comptes
+    bancaires. Les relevés OFX ou CSV que tu importes (Pépètes Plus) sont lus sur le téléphone, puis oubliés.</p>
+
+  <h2>Sauvegardes</h2>
+  <ul>
+    <li><strong>Export manuel</strong> (gratuit) : tu choisis toi-même où enregistrer le fichier de sauvegarde.</li>
+    <li><strong>Sauvegarde automatique Google Drive</strong> (Pépètes Plus, facultative, désactivée tant que tu ne l'actives pas) :
+      une copie de tes données est envoyée sur <strong>ton propre</strong> Google Drive, dans un dossier caché réservé à l'application
+      (« appDataFolder »). Pépètes n'a accès à rien d'autre de ton Drive, et l'éditeur n'a aucun accès à ce dossier.
+      Le transfert est chiffré (HTTPS). Tu peux la désactiver à tout moment dans les Réglages.</li>
+    <li><strong>Sauvegarde Android</strong> : si elle est activée sur ton téléphone, Android peut inclure les données de
+      l'application dans la sauvegarde de ton compte Google, comme pour toutes les applications. Elle se gère dans les
+      réglages d'Android.</li>
+  </ul>
+
+  <h2>Achats et abonnement</h2>
+  <p>L'abonnement Pépètes Plus est payé et géré par <strong>Google Play</strong>. Pépètes reçoit seulement l'état de
+    l'abonnement (actif, essai, arrêté) ; aucune donnée de paiement ne passe par l'application. Voir
+    <a href="https://policies.google.com/privacy">les règles de confidentialité de Google</a>.</p>
+
+  <h2>Ce que l'application ne fait pas</h2>
+  <ul>
+    <li>Aucune publicité, aucun outil de mesure d'audience ou de suivi.</li>
+    <li>Aucune vente, location ou partage de données avec qui que ce soit.</li>
+    <li>Pas de localisation, de contacts, de photos, ni de micro.</li>
+  </ul>
+
+  <h2>Autorisations</h2>
+  <ul>
+    <li><strong>Notifications</strong> : rappel du soir et récap mensuel, calculés sur le téléphone. Facultatif.</li>
+    <li><strong>Accès Internet</strong> : uniquement pour Google Play (abonnement) et la sauvegarde Google Drive si tu l'actives.</li>
+  </ul>
+
+  <h2>Supprimer tes données</h2>
+  <ul>
+    <li>Sur le téléphone : désinstalle l'application, ou efface ses données (Réglages Android › Applications › Pépètes ›
+      Stockage › Effacer les données).</li>
+    <li>Sur Google Drive : désactive la sauvegarde automatique dans Pépètes, puis supprime les données cachées de l'application
+      depuis Google Drive (Paramètres › Gérer les applications › Pépètes › Supprimer les données cachées de l'application).</li>
+  </ul>
+  <p>L'éditeur ne détient aucune de tes données : il n'y a donc rien à supprimer de son côté.</p>
+
+  <h2>Enfants</h2>
+  <p>Pépètes s'adresse aux adultes et ne collecte sciemment aucune donnée concernant des enfants.</p>
+
+  <h2>Contact</h2>
+  <p>Pour toute question : <a href="mailto:vincentieulia@gmail.com">vincentieulia@gmail.com</a></p>
+
+  <p class="muted">Si ces règles changent, cette page sera mise à jour et la date ci-dessus modifiée.</p>
+</main>
+</body>
+</html>
